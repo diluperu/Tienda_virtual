@@ -1,11 +1,16 @@
 @charset "ISO-8859-1";
 
-#contenedor{
-   margin-top: 10%;
-   
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
 }
 
-#login{
+.contenedor{
+   margin-top: 5%;
+}
+
+.login{
     margin-top: 4%;
 }
 

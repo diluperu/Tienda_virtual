@@ -3,38 +3,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" href="estilo.css">
-<title>Login</title>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Login</title>
 </head>
 <body>
- <!-- MENU -->
-<center>
-  <div class="contenedor" style="margin-top: 5%">
-    <h1>Bienvenidos a la Tienda Genérica</h1>
-      <div id="login" style="margin-top: 3%">
-       <form  action="Servletlogin" method="get">
+ 	<!-- Login -->
+	<div class="contenedor">
+		<h1>Bienvenidos a la Tienda Genérica</h1>
+		<div class="login">
+			<form  action="Servletlogin" method="post">
   
-   <table style="with:80%">
-     <tr>
-       <td>Usuario</td>
-       <td> <input type="text" name="usuario"  requered></td>
-     </tr>
+				<table>
+					<tr>
+						<td>
+							<label for="usuario">Usuario</label>
+						</td>
+						<td>
+							<input type="text" id="usuario" name="usuario"
+							required>
+						</td>
+					</tr>
      
-     <tr >
-       <td>Contraseña</td>
-       <td> <input type="password" name="clave" requered></td>
-     </tr> 
-   </table>
+					<tr>
+						<td>
+							<label for="pass">Contraseña</label>
+						</td>
+						<td>
+							<input type="password" id="pass" name="pass" required>
+						</td>
+					</tr> 
+				</table>
     
-     <br>
-     <button>Aceptar</button>
-     <button>Cancelar</button>
+				<button type="submit">Aceptar</button>
+				<button>Cancelar</button>
     
-     </form>
-    </div>
-  </div>
-</center>
+			</form>
+		</div>
+	</div>
 
 </body>
 </html>
