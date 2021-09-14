@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin: 0;
+}
+p {
+  margin-bottom: 1.6em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgb(128, 125, 125);
+  color: white;
+  padding: 2rem 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.Tienda-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Tienda {
+  letter-spacing: 15px;
+  font-size: 1.3em;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0cm;
+  list-style: none;
+}
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1 rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navigation ul li a:hover {
+  background: rgb(180, 136, 136);
+}
+
+.footer {
+  background: #f2f2f2;
+  padding: 4 rem 0;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  box-shadow: 5px, 5px;
+  margin-left: 50px;
+}
+
+main {
+  display: flex;
+}

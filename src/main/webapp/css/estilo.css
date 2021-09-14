@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contenedor{
+   margin-top: 5%;
+}
+
+.login{
+    margin-top: 4%;
+}
+
+input{
+    margin: 5%;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+button{
+    padding: 6px;
+    margin-left: 4%;
+    border-radius: 5px;
+
+}
+
