@@ -12,7 +12,7 @@
 	<div class="contenedor">
 		<h1>Bienvenidos a la Tienda Genérica</h1>
 		<div class="login">
-			<form  action="Servletlogin" method="post">
+			<form  action="ControladorLogin" method="post">
   
 				<table>
 					<tr>
@@ -35,7 +35,7 @@
 					</tr> 
 				</table>
     
-				<button type="submit">Aceptar</button>
+				<button type="submit" name="btnLogin">Aceptar</button>
 				<button>Cancelar</button>
     
 			</form>
